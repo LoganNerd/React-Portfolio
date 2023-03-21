@@ -1,0 +1,36 @@
+.iconContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-youtube {
+  color: red;
+  height: 50px;
+  width: 50px;
+}
+.icon-linkedin {
+  color: rgb(91, 177, 226);
+  height: 50px;
+  width: 50px;
+}
+.icon-github {
+  color: black;
+  height: 50px;
+  width: 50px;
+}
+
+.icon-youtube:hover {
+  color: rgb(129, 34, 34);
+  height: 65px;
+  width: 65px;
+}
+.icon-linkedin:hover {
+  color: rgb(15, 92, 170);
+  height: 65px;
+  width: 65px;
+}
+.icon-github:hover {
+  color: rgb(190, 185, 185);
+  height: 65px;
+  width: 65px;
+}
