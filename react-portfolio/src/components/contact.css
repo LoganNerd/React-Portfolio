@@ -1,0 +1,40 @@
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  font-size: 20px;
+}
+
+input {
+  width: 250px;
+  border: 3px solid black;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+textarea {
+  width: 300px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: black;
+  color: aqua;
+}
+
+label {
+  display: flex;
+  color: black;
+  background-color: aquamarine;
+  border: 3px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 5px auto;
+}

@@ -5,17 +5,19 @@
 
 .carousel .slide {
   height: 80vh;
+  width: 70vh;
 }
 
 .carousel .slide img {
   max-height: 100%;
+  max-width: 100%;
   width: auto;
 }
 
 .image {
   margin: 0 auto;
   height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -51,15 +53,15 @@
 .secHeader {
   display: flex;
   justify-content: center;
-  background-color: black;
-  color: rgb(37, 198, 247);
-  margin-top: 10px;
+  margin: 0 auto;
+  max-width: 50%;
+  background-color: aquamarine;
+  color: black;
 }
 
-.Intro {
+.babyJournal {
   display: flex;
   justify-content: center;
-  background-color: black;
-  color: rgb(37, 198, 247);
-  margin-bottom: 50px;
+  color: aqua;
+  margin-top: 1000px;
 }
