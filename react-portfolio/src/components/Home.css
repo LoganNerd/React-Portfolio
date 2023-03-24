@@ -18,102 +18,124 @@
   justify-content: center;
   text-align: center;
   color: black;
-  background-color: aquamarine;
+  background-color: rgba(127, 255, 212, 0.7);
   border: 3px solid aqua;
   border-radius: 20px;
 }
-
-.Introduction {
-  grid-column: 1 / span 2;
+.smallIntro {
+  grid-column: 1 / span 3;
   grid-row: 2;
-  padding: 23px;
+  padding: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
-  background-color: aquamarine;
+  color: black;
+  background-color: rgba(127, 255, 212, 0.7);
   border: 3px solid aqua;
   border-radius: 20px;
-  color: black;
 }
 
-.icon-java {
-  grid-column: 3;
-  grid-row: 2;
+.intro {
+  background-color: rgba(127, 255, 212, 0.7);
+  padding: 10px;
   display: flex;
+  color: black;
+  border: 3px solid aqua;
+  border-radius: 20px;
+  align-items: center;
+}
+.learnMore {
+  background-color: rgba(127, 255, 212, 0.3);
+  padding: 10px;
+  display: flex;
+  color: black;
+  border: 3px solid aqua;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
   align-items: center;
   width: 100px;
   height: 100px;
   color: aqua;
 }
 
-.icon-java:hover {
+.icon-container span {
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.icon-container:hover {
   color: blue;
   height: 125px;
   width: 125px;
 }
 
-.Introduction2 {
-  grid-column: 1 / span 2;
-  grid-row: 3;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: aquamarine;
-  border: 3px solid aqua;
-  border-radius: 20px;
-  color: black;
+.icon-java {
+  grid-column: 2;
+  grid-row: 2;
+  width: 100px;
+  height: 100px;
+}
+
+.icon-apollo {
+  grid-column: 2;
+  grid-row: 2;
+  width: 100px;
+  height: 100px;
+}
+
+.icon-query {
+  grid-column: 2;
+  grid-row: 2;
+  width: 100px;
+  height: 100px;
+}
+
+.icon-react {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100px;
+  height: 100px;
+}
+
+.icon-node {
+  grid-column: 3;
+  grid-row: 2;
+  width: 100px;
+  height: 100px;
+}
+
+.icon-sql {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100px;
+  height: 100px;
+}
+.icon-api {
+  grid-column: 1;
+  grid-row: 2;
+  width: 100px;
+  height: 100px;
 }
 
 .icon-html {
   grid-column: 3;
-  grid-row: 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  grid-row: 1;
   width: 100px;
   height: 100px;
-  color: aqua;
-}
-
-.icon-html:hover {
-  color: blue;
-  height: 125px;
-  width: 125px;
-}
-
-.Introduction3 {
-  grid-column: 1 / span 2;
-  grid-row: 4;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: aquamarine;
-  border: 3px solid aqua;
-  border-radius: 20px;
-  color: black;
 }
 
 .icon-css {
-  grid-column: 3;
-  grid-row: 4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  grid-column: 2;
+  grid-row: 1;
   width: 100px;
   height: 100px;
-  color: aqua;
-}
-
-.icon-css:hover {
-  color: blue;
-  height: 125px;
-  width: 125px;
 }
 
 @media (max-width: 768px) {
@@ -124,51 +146,26 @@
 
   .icon-java,
   .icon-html,
-  .icon-css {
-    grid-column: 1;
+  .icon-css,
+  .icon-sql,
+  .icon-node,
+  .icon-react,
+  .icon-apollo,
+  .icon-query,
+  .icon-api {
     justify-content: center;
     margin: 20px 0;
   }
 }
 
-.Introduction4 {
-  grid-column: 1 / span 2;
-  grid-row: 5;
+.infoButton {
+  background-color: rgba(127, 255, 212, 0.7);
   padding: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: aquamarine;
+  color: black;
   border: 3px solid aqua;
   border-radius: 20px;
-  color: black;
-}
-
-.Introduction5 {
-  grid-column: 1 / span 2;
-  grid-row: 6;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  background-color: aquamarine;
-  border: 3px solid aqua;
-  border-radius: 20px;
-  color: black;
-}
-
-.Introduction6 {
-  grid-column: 1 / span 2;
-  grid-row: 6;
-  padding: 10px;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: aquamarine;
-  border: 3px solid aqua;
-  border-radius: 20px;
-  color: black;
+  margin: 0 auto;
 }
