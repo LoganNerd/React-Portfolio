@@ -37,10 +37,10 @@ function Portfolio() {
 
         <div class="slide youtubeVideo">
           <a href="https://www.youtube.com/watch?v=KtrF90Ge3aI">
-            <img src="./images/youtubeVideo.png" alt="Shipwreck Dive" />
+            <img src="./images/KillAllTires.png" alt="Kill All Tires" />
             <div class="project-description">
-              <p>Shipwreck Dive</p>
-              <p>A video of a dive to a shipwreck off the coast of Florida.</p>
+              <p>Kill All Tires</p>
+              <p>An ecommerce site for a fictional mechanic shop</p>
             </div>
           </a>
         </div>
