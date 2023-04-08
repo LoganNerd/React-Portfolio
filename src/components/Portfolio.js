@@ -35,8 +35,8 @@ function Portfolio() {
           </a>
         </div>
 
-        <div class="slide youtubeVideo">
-          <a href="https://www.youtube.com/watch?v=KtrF90Ge3aI">
+        <div class="slide">
+          <a href="https://kill-all-tires.herokuapp.com/">
             <img src="./images/KillAllTires.png" alt="Kill All Tires" />
             <div class="project-description">
               <p>Kill All Tires</p>
